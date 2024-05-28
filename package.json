@@ -1,11 +1,26 @@
 {
-  "name": "@kiet4224/hello-world-npm",
+  "name": "@kietc/hello-world-package",
   "version": "1.0.0",
+  "description": "just a hello world package",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/huekiet/npm-package-example.git"
+  },
+  "keywords": [
+    "example",
+    "hello-world"
+  ],
+  "author": "kietc",
   "license": "ISC",
-  "description": "a simple hello world package"
+  "bugs": {
+    "url": "https://github.com/huekiet/npm-package-example/issues"
+  },
+  "homepage": "https://github.com/huekiet/npm-package-example#readme",
+  "publishConfig": {
+    "access": "public"
+  }
 }
